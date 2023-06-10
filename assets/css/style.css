@@ -2334,4 +2334,13 @@ p.form-message.error.form-message.error {
   padding: 10px;
 }
 
+.submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-icon {
+  padding: 0px 7px 8px 0px;
+}
 /*# sourceMappingURL=style.css.map */
