@@ -2317,13 +2317,13 @@ p.form-message.error.form-message.error {
 
 /* customizations */
 
-/* @media (min-width: 992px) */
-.col-lg-skills {
-  -ms-flex: 0 0 20%;
-  flex: 0 0 20%;
-  max-width: 20%;
+@media only screen and (min-width: 1200px) {
+  .col-lg-skills {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
 }
-
 .info-icon .lni-envelope {
   color: #754ef9;
   padding: 10px;
