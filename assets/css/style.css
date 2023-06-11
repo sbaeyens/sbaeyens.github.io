@@ -1237,15 +1237,19 @@ p {
 
 /* custom to add full width class to preview */
 .single-work .work-image img {
-  width: 100%;
+  width: 80%;
   /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
 }
 .single-work .work-overlay {
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 0; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
   height: 100%;
   background-color: rgba(64, 227, 165, 0.874);
   opacity: 0;
@@ -2357,4 +2361,26 @@ p.form-message.error.form-message.error {
 .section-title .title {
   /* color: white; */
 }
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  margin-top: 15px;
+  /* border: 1px solid red; */
+}
+
+.description p {
+  text-align: left;
+}
+
+.description-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=style.css.map */
